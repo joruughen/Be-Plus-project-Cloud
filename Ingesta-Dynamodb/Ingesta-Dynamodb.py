@@ -4,7 +4,7 @@ from decimal import Decimal
 
 # Configuración de DynamoDB y S3
 nombreTabla = "Products"  # Nombre de la tabla en DynamoDB
-nombreBucket = "test-1-dynamo"  # Nombre del bucket en S3
+nombreBucket = "bucket-ingesta-parcial"  # Nombre del bucket en S3
 ficheroUpload = "data.json"  # Nombre del archivo JSON a subir a S3
 
 # Conectar a DynamoDB (usa el endpoint si es DynamoDB local)
