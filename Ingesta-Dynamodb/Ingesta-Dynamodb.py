@@ -5,7 +5,7 @@ import json
 dynamodb_table_name = "Products"
 
 
-nombreBucket = "sslo-output01"
+nombreBucket = "test-1-dynamo"
 json_file_prefix = "products_data_part"
 max_items_per_file = 100
 
